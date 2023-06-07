@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+    <script src="script.js"></script>
+    <title>Previsão do Tempo</title>
+</head>
+
+<body>
+    <div class="caixa-maior">
+
+        <input class="input-cidade" placeholder="Digite o nome da cidade"> <!-- campo de busca das cidade. !-->
+        <button class="busca" onclick="CliqueiNoBotão()">
+            <img class="img-busca" src="Imagens/find.svg" alt="Botão de pesquisa">
+        </button> <!-- botão de busca-->
+
+        <div class="caixa-media">
+            <h2 class="cidade">Digite acima qual cidade você quer saber a temperatura </h2> <!-- a resposta da busca da inf.-->
+
+            <p class="Temp"></p> <!-- temperatura no local-->
+
+            <div class="caixa-menor">
+
+                <img class="img-previsao" alt="" src="">
+
+                <p class="texto-previsao"></p> <!-- Icone do tempo  -->
+
+            </div>
+
+            <p class="umidade"></p> <!-- resultado de umidade no local-->
+
+        </div>
+
+    </div>
+</body>
+
+</html>
